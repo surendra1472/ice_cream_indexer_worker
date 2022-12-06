@@ -1,0 +1,9 @@
+server:
+  port: ":5000"
+
+kafka:
+  brokers:
+    - "localhost:9092"
+  icecreamcreatetopic: "ice_cream_create_dev"
+  zookeeper: "localhost:2181"
+  consumerGroup: "ice_cream_worker"
